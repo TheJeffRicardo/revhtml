@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+} 
+img {
+    border-radius: 300px;
+    height: 400px;
+    width: 400px;
+}
+header {
+    min-width: 90vw;
+}
+nav ul {
+    display: inline-flex;
+    margin-left: auto;
+}
+li {
+    list-style: none;
+    background-color: aqua;
+    padding: 30px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+h1 {
+    color: blueviolet;
+    transform: rotate(30deg);
+}
+h2 {
+    color: red;
+    transform: rotate(30deg);
+}
+h3:hover{
+    color: pink;
+    transform: rotate(30deg);
+    transition: 4s;
+    cursor: pointer;
+}
